@@ -46,6 +46,7 @@ Supports:
   
 labels(...)
   Finds and stores label addresses (e.g., loop:) in labels_dict during the first pass.
+  
 formatted_instruction(...)
   Strips label declarations and passes clean instruction to assembly_instruction.
   
