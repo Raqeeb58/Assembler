@@ -65,7 +65,7 @@ def immediate_to_binary(imm,bits):
     else:
         imm = int(imm)
     
-    if imm > 0 :
+    if imm >= 0 :
         imm_bin = bin(imm)[2:].zfill(bits)
     else :
         imm_bin = bin((1 << bits) + imm)[2:] 
@@ -169,7 +169,7 @@ def assembly_instruction(instruction,program_counter):
             if instruct_[1] not in labels_dict:
                 immediate = immediate_to_binary(instruct_[1],27)
             elif instruct_[1] in labels_dict : 
-                immediate = immediate_to_binary((labels_dict[instruct_[1]]-program_counter)/4,27)
+                immediate = immediate_to_binary(str((labels_dict[instruct_[1]] - program_counter) // 4), 27)
             return opcode + immediate
         else :
             print("invalid code")
