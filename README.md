@@ -7,7 +7,8 @@ The link for this streamlut app is :
  
 User Input:
    The user enters assembly code in a text area.
-    Assembly can include labels (e.g., loop:), comments (//), and instructions.
+   
+   Assembly can include labels (e.g., loop:), comments (//), and instructions.
    
 Instruction Categories:
 
