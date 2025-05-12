@@ -66,5 +66,5 @@ A button: "Convert to Machine Code"
 Displays binary output line-by-line after conversion.
 Errors out for any invalid instruction.
 
-https://simplerisc.streamlit.app/
+
 
