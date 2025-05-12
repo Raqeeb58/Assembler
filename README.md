@@ -1,6 +1,9 @@
 # Assembler
 This Streamlit app is a web-based Assembly to Machine Code Converter designed to convert custom assembly instructions into 32-bit machine code. It includes label support, opcode encoding, and immediate/register decoding.
  How It Works (High-Level Flow)
+The link for this streamlut app is :
+
+ https://simplerisc.streamlit.app/
  
 User Input:
    The user enters assembly code in a text area.
@@ -62,4 +65,6 @@ Title and text area for input.
 A button: "Convert to Machine Code"
 Displays binary output line-by-line after conversion.
 Errors out for any invalid instruction.
+
+https://simplerisc.streamlit.app/
 
